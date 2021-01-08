@@ -40,12 +40,10 @@
 				📞 номер тефона: 098 324-68-52  <br> 🗺 Киев ул. Козацкая 5  <br> 🕥 <time>Время работы 9:00 - 18:00</time><br>
 		</div>
 		</ul>
-		<form action="">
-		  <p><b>Как по вашему мнению расшифровывается аббревиатура ОС?</b></p>
-		  <p><input type="radio" name="answer" value="a1">Офицерский состав<Br>
-			 <input type="radio" name="answer" value="a2">Операционная система<Br>
-			 <input type="radio" name="answer" value="a3">Большой полосатый мух</p>
-		  <p><input type="submit"></p>
+		<form action="/submit" method="POST">
+			<label for='testpost'>This fild</label>
+			<input id='testpost'	type="text" name='newtest' placeholder='Enter your name'>
+			<input type='submit' value='Save'>
 		</form>
 	</body>
 </html>
